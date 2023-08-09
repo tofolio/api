@@ -31,3 +31,8 @@ class Reaction(models.Model):
     post = models.ForeignKey(Post, on_delete=models.CASCADE)
     reaction = models.CharField(choices=Reactions.choices, max_length=20)
     reacted_at = models.DateTimeField(auto_now_add=True)
+
+
+class SavedPosts(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    posts = models.ManyToManyField(Post)
