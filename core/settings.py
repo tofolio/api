@@ -25,6 +25,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'graphene_django',
+    'post',
+    'community',
+    'user',
+    'project'
 ]
 
 MIDDLEWARE = [
@@ -36,6 +41,11 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+
+GRAPHENE = {
+ 'SCHEMA': 'core.schema.schema'
+}
 
 ROOT_URLCONF = 'core.urls'
 
