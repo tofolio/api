@@ -81,7 +81,7 @@ Deprecated==1.2.13
 dicttoxml==1.7.4
 distlib==0.3.5
 distro==1.7.0
-Django==3.2.13
+Django==3.2.20
 django-cors-headers==4.0.0
 django-graphiql==0.4.4
 djangorestframework==3.14.0
