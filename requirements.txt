@@ -134,7 +134,7 @@ GDAL==3.5.1
 geoip2==2.9.0
 geojson==2.5.0
 gitdb==4.0.9
-GitPython==3.1.27
+GitPython==3.1.32
 gpg==1.17.1
 graphene==3.3
 graphene-django==3.1.3
