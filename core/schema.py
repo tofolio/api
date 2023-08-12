@@ -1,6 +1,4 @@
+from post.schema import PostQuery
 import graphene
 
-class Query( graphene.ObjectType):
-    pass
-
-schema = graphene.Schema(query=Query)
+schema = graphene.Schema(query=PostQuery)
