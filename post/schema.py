@@ -1,9 +1,6 @@
+from .queries import PostQuery
+from .mutations import PostMutation
 import graphene
-from .types import PostType
 
 
-class PostQuery(graphene.ObjectType):
-    all_posts = graphene.List(PostType)
-
-
-schema = graphene.Schema(query=PostQuery)
+schema = graphene.Schema(query=PostQuery, mutation=PostMutation)
