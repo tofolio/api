@@ -8,7 +8,7 @@ channels==4.0.0
 constantly==15.1.0
 cryptography==41.0.3
 daphne==4.0.0
-Django==4.2.4
+Django==4.2.7
 graphene==3.3
 graphene-django==3.1.5
 graphql-core==3.2.3
