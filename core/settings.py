@@ -7,6 +7,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
 
 if os.environ.get("ENV") == "DEV":
     DEBUG = True
@@ -14,6 +16,7 @@ elif os.environ.get("ENV") == "PROD":
     DEBUG = False
 
 ALLOWED_HOSTS = []
+
 
 
 INSTALLED_APPS = [
